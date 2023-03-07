@@ -1,0 +1,1 @@
+document.write("Hello in JavaScript world!");
