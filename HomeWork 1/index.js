@@ -3,8 +3,9 @@ console.log('Oleksii Rusnak');
 
 // task #3
 let a = "World is wonderful ";
-document.write(a);
-let b = a;
+let b = "World is not that good";
+document.write(a,b);
+b = a;
 document.write(b);
 
 // task #4

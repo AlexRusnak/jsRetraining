@@ -81,3 +81,37 @@ if (isNaN(areaValue)|| areaValue <= 0) {
     console.log(`The area of the triangle is ${parseFloat(areaValue).toFixed(3)}`);
 };
 
+// task 7
+
+let currentDate = new Date();
+let time = currentDate.getHours();
+console.log(time);
+
+if (time > 23 && time <= 5) {
+    alert("Good Night");
+} else if (time > 5 && time <= 11 ) {
+    alert("Good Morning");
+} else if (time > 11 && time <= 17) {
+    alert("Good Day");
+} else if (time > 17 && time <= 23) {
+    alert("Good evening");
+} else (
+    alert("Something is not working")
+);
+
+switch (true) {
+    case (time > 23 && time <= 5):
+        alert("Good Night Switch");
+        break;
+    case (time > 5 && time <= 11 ):
+        alert("Good Morning Switch");
+        break;
+    case (time > 11 && time <= 17):
+        alert("Good Day Switch");
+        break;
+    case (time > 17 && time <= 23):
+        alert("Good evening Switch");
+        break;
+    default:
+        alert('Something is not working Switch')
+};
